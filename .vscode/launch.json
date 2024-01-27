@@ -1,0 +1,140 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Attach",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "enter program name, for example ${workspaceFolder}/a.exe",,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/path/to/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description":  "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Launch First_Non_Repating_character",
+            "request": "launch",
+            "mainClass": "DS_Algo_JAVA.Qeues.First_Non_Repating_character",
+            "projectName": "Msahil2412 Workplace_97a46379"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiEx",
+            "request": "launch",
+            "mainClass": "MultiThread.MultiEx",
+            "projectName": "Msahil2412 Workplace_97a46379"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sahil",
+            "request": "launch",
+            "mainClass": "Sahil",
+            "projectName": "Msahil2412 Workplace_97a46379"
+        },
+        {
+            "type": "java",
+            "name": "Launch ex",
+            "request": "launch",
+            "mainClass": "DS_Algo_JAVA.Qeues.ex",
+            "projectName": "Msahil2412 Workplace_97a46379"
+        },
+        {
+            "type": "java",
+            "name": "Launch Circular_Array_Qeue",
+            "request": "launch",
+            "mainClass": "DS_Algo_JAVA.Qeues.Circular_Array_Qeue",
+            "projectName": "Msahil2412 Workplace_97a46379"
+        },
+        {
+            "type": "java",
+            "name": "Launch Kajals",
+            "request": "launch",
+            "mainClass": "Kajals",
+            "projectName": "Msahil2412 Workplace_97a46379"
+        },
+        {
+            "type": "java",
+            "name": "Launch Currenc",
+            "request": "launch",
+            "mainClass": "AMKorp.Currenc",
+            "projectName": "Msahil2412 Workplace_97a46379"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayListRec",
+            "request": "launch",
+            "mainClass": "DS_Algo_JAVA.ArrayListRec",
+            "projectName": "Msahil2412 Workplace_97a46379"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearch",
+            "request": "launch",
+            "mainClass": "DS_Algo_JAVA.BinarySearch",
+            "projectName": "Msahil2412 Workplace_97a46379"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Msahil2412 Workplace_97a46379"
+        },
+        {
+            "type": "java",
+            "name": "Launch Generix",
+            "request": "launch",
+            "mainClass": "DS_Algo_JAVA.Oops_Stack_Que_Generic.Generic.Generix",
+            "projectName": "Msahil2412 Workplace_97a46379"
+        },
+        {
+            "type": "java",
+            "name": "Launch Generix",
+            "request": "launch",
+            "mainClass": "DS_Algo_JAVA.Oops_Stack_Que.Generix",
+            "projectName": "Msahil2412 Workplace_97a46379"
+        },
+        {
+            "type": "java",
+            "name": "Launch Clients",
+            "request": "launch",
+            "mainClass": "DS_Algo_JAVA.Oops_Stack_Que.Clients",
+            "projectName": "Msahil2412 Workplace_97a46379"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpiralPrint",
+            "request": "launch",
+            "mainClass": "DS_Algo_JAVA.SpiralPrint",
+            "projectName": "Msahil2412 Workplace_97a46379"
+        },
+        {
+            "type": "java",
+            "name": "Launch Rev",
+            "request": "launch",
+            "mainClass": "Live.Rev",
+            "projectName": "Msahil2412 Workplace_97a46379"
+        },
+        {
+            "type": "java",
+            "name": "Launch Clients",
+            "request": "launch",
+            "mainClass": "DS_Algo_JAVA.Cass_Objects.Clients",
+            "projectName": "Msahil2412 Workplace_97a46379"
+        }
+    ]
+}
